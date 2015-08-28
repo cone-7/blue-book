@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+
+.button-icon{
+  /*background: $assertive !important;
+  color:white !important;
+  z-index: 12 !important;
+  position: absolute !important; 
+  bottom: 10px !important;
+  right: 10px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+  -webkit-transition: 0.2s linear !important;
+  transition: 0.2s linear !important;
+  -webkit-transition-property: -webkit-transform, all !important;
+  transition-property: transform, all !important;*/
+
+	border-radius: 50% !important;
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: all linear 220ms;
+    backface-visibility: hidden;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    content: url('http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/black-ink-grunge-stamps-textures-icons-arrows/003683-black-ink-grunge-stamp-textures-icon-arrows-double-arrowhead-left.png');
+}

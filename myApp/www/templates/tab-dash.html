@@ -1,0 +1,39 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+  <div class="row" ng-repeat="c in categories" ng-if="$index % 4 == 0">
+          <div class="col col-25" ng-show="categories[$index]">
+            <button class="button-icon" ng-click="remove(chat)"></button><br>
+            <div class="" ng-show="categories[$index]">
+              <div>
+                {{categories[$index].name}}
+              </div>
+            </div>
+          </div>
+          <div class="col col-25" ng-show="categories[$index+1]">
+          <button class="button-icon" ng-click="remove(chat)"></button><br>
+            <div class="" ng-show="categories[$index+1]">
+              <div>
+                {{categories[$index+1].name}}
+              </div>
+            </div>
+          </div>
+          <div class="col col-25" ng-show="categories[$index+2]">
+          <button class="button-icon" ng-click="remove(chat)"></button><br>
+            <div class="" ng-show="categories[$index+2]">
+              <div>
+                {{categories[$index+2].name}}
+              </div>
+            </div>
+          </div>
+          <div class="col col-25" ng-show="categories[$index+3]">
+          <button class="button-icon" ng-click="remove(chat)"></button><br>
+            <div class="">
+              <div>
+                {{categories[$index+3].name}}
+              </div>
+            </div>
+          </div>
+      </div>
+    </ion-content>
+  </ion-content>
+</ion-view>
